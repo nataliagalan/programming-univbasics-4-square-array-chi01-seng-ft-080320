@@ -1,7 +1,7 @@
 #build a method, square_array,
 #that squares each element in an array of numbers
 #and returns a new array of these squared numbers.
-require 'pry'
+
 
 def square_array(array)
   # your code here
@@ -13,5 +13,4 @@ def square_array(array)
     index += 1
   end
   squared_array
-  binding.pry
 end
